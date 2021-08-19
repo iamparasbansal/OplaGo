@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Heebo", sans-serif;
+}
+.app-container {
+	width: 90%;
+	margin: 10vh auto;
+	border-radius: 5px;
+	padding: 20px;
+}
+.left {
+	display: flex;
+	align-items: center;
+}
+.live {
+	background-color: red;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 85px;
+	height: 30px;
+	border-radius: 4px;
+}
+.left > h3 {
+	margin-left: 10px;
+}
+.heading {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.button {
+	background: rgba(91, 134, 175, 0.623);
+	color: white;
+	width: 35px;
+	height: 30px;
+	border-radius: 3px;
+	border: none;
+}
+.prev-btn {
+	transform: scaleX(-1);
+	margin-right: 20px;
+}
+
+.underline {
+	height: 1px;
+	width: 100%;
+	margin: 20px auto;
+	background-color: rgba(177, 173, 173, 0.808);
+	/* margin-top: 20px;*/
+}
+
+.next-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.class-count {
+	color: rgba(0, 0, 0, 0.493);
+	display: flex;
+	align-items: center;
+}
+
+.icon-utube {
+	margin-right: 4px;
+	color: rgba(255, 43, 43, 0.849);
+}
+
+.icon-book {
+	margin-right: 4px;
+	color: rgb(240, 180, 50);
+}
+
+.icon-play {
+	margin-right: 4px;
+	color: red;
+}
+
+.card {
+	margin: 10px;
+}
+
+.card:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 12px #888888;
+}
+
+.card-caption {
+	height: 50px;
+	background: linear-gradient(to right, rgb(102, 102, 201), rgb(46, 46, 235));
+	color: white;
+	display: flex;
+}
+.icon-time {
+	margin-right: 10px;
+}
+.card-caption > h5 {
+	align-self: center;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
